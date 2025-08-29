@@ -1,0 +1,85 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background: #060606;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font: weight 550px; ;
+}
+.logo{
+    font-size: 24px;
+}
+.hero{
+    
+background-position: 0cqi;
+    width: 100%;
+    height: auto;
+    background: url(https://c1.wallpaperflare.com/preview/513/870/409/cook-healthy-food-eat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    text-align: center;
+padding: 140px 0;
+    
+}
+.hero h2{
+    font-size:36 px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size:20 px;
+    margin-bottom: 10px;
+}
+.search-box{
+    max-width: 550;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int{
+    width: 30%;
+    padding: 7px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+    border: 1px solid rgba(216, 6, 6, 0.753);
+}
+.but{
+
+    padding: 6px 12px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background: rgba(253, 3, 7, 0.934);
+    color: #fff;
+    cursor: pointer;
+}
